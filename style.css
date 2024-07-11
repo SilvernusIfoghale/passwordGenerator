@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: #1c1c1c;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.main {
+  background-color: #1f2937;
+  width: 500px;
+  height: 550px;
+  display: grid;
+  place-content: center;
+}
+
+.top-text {
+  color: aliceblue;
+  font-size: 37px;
+  font-weight: bold;
+}
+.next-text {
+  color: #55f991;
+  font-size: 35px;
+  font-weight: bold;
+}
+.never-text {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #d5d4d8;
+}
+
+.btn-generate {
+  width: 165px;
+  border: none;
+  height: 38px;
+  font-size: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  background-color: #10b981;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.generate {
+  border-bottom: 1px solid rgba(240, 248, 255, 0.1);
+  margin: 15px 0;
+}
+
+.btn-output {
+  width: 195px;
+  border: none;
+  height: 38px;
+  font-size: 13px;
+  border-radius: 8px;
+  margin: 20px 0;
+  background-color: #273549;
+  color: #55f991;
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    background-color: #1f2937;
+    width: 380px;
+    height: 400px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+  }
+
+  .top-text {
+    color: aliceblue;
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .next-text {
+    color: #55f991;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .never-text {
+    font-size: 13px;
+    margin: 15px 0;
+    color: #d5d4d8;
+  }
+
+  .btn-generate {
+    width: 145px;
+    border: none;
+    height: 34px;
+    font-size: 13px;
+    border-radius: 8px;
+    margin: 15px 0;
+    background-color: #10b981;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .generate {
+    border-bottom: 1px solid rgba(240, 248, 255, 0.1);
+    margin: 10px 0;
+  }
+
+  .btn-output {
+    width: 160px;
+    border: none;
+    height: 38px;
+    font-size: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: #273549;
+    color: #55f991;
+    margin: 5px;
+  }
+}
